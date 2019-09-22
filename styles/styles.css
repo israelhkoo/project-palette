@@ -5,7 +5,8 @@ body {
   background-color: #E3E2DF;
   color: #5D001E;
   font-family: "Roboto", sans-serif;
-  font-weight: 450;
+  font-weight: 400;
+  font-size: 14px;
   line-height: 1.5;
 }
 h1{
@@ -30,6 +31,7 @@ header{
   align-items : center;
   justify-content: center;
   padding: 0 15% 0 15%;
+  border-bottom: 3px solid #5D001E;
 }
 header h1 {
   font-weight: 700;
@@ -249,27 +251,99 @@ main{
 .innovative-audacious .color-1 .box{
   display: block;
   height:100px;
-  background-color: #0B0C10;
+  background-color: #272727;
 }
 .innovative-audacious .color-2 .box{
   display: block;
   height:100px;
-  background-color: #1F2833;
+  background-color: #747474;
 }
 .innovative-audacious .color-3 .box{
   display: block;
   height:100px;
-  background-color: #C5C6C7;
+  background-color: #FF652F;
 }
 .innovative-audacious .color-4 .box{
   display: block;
   height:100px;
-  background-color: #66FCF1;
+  background-color: #FFE400;
 }
 .innovative-audacious .color-5 .box{
   display: block;
   height:100px;
-  background-color: #45A29E;
+  background-color: #14A76C;
+}
+/* Fonts */
+#fonts {
+  text-align: center;
+}
+#fonts h1{
+  padding-top: 3rem;
+}
+.font-wrapper{
+  display: block;
+  vertical-align: middle;
+  text-align: center;
+  padding: 3.875rem 13% 0 13%;
+  margin: 0 auto;
+}
+.font{
+  display: inline-block;
+  text-align: left;
+  width: 40%;
+  border: 2px solid #C5CBE3;
+  padding-left: 2rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+#fonts .font h1{
+  padding-top: 0;
+}
+#fonts .font h3{
+  font-size: 70px;
+}
+#fonts .font strong{
+  font-weight: 700;
+}
+#fonts .font em{
+  font-style: italic;
+}
+
+#fonts .ubuntumono h3{
+  font-family: "Ubuntu Mono", monospace;
+}
+#fonts .ubuntumono p{
+  font-family: "Ubuntu Mono", monospace;
+}
+/* Text Styles */
+#text-styles {
+  text-align: center;
+}
+#text-styles h1{
+  padding-top: 3rem;
+}
+.text-wrapper{
+  display: block;
+  vertical-align: middle;
+  text-align: center;
+  padding: 3.875rem 13% 0 13%;
+  margin: 0 auto;
+}
+.text{
+  display: inline-block;
+  text-align: left;
+  width: 26%;
+  border: 2px solid #C5CBE3;
+  padding-left: 2rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+#text-styles .text h1{
+  padding-top: 0;
+}
+#text-styles .text ul{
+  list-style: square;
+  padding-left:1.2rem;
 }
 /* Footer */
 footer{
@@ -286,4 +360,5 @@ footer h1{
   color: #E3E2DF;
   width: 100%;
   text-align: right;
+  padding-right: 1.5rem;
 }
